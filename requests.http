@@ -1,0 +1,78 @@
+### User Index
+GET http://localhost:3000/users.json
+
+
+### User Create
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+"username": "firstName",
+"email": "first@test.com"
+}
+
+
+### User Show
+GET http://localhost:3000/users/2.json
+
+
+
+### User Update
+PATCH http://localhost:3000/users/5.json
+Content-Type: application/json
+
+{
+"email": "fName@test.com"
+}
+
+
+
+### User Destroy
+DELETE http://localhost:3000/users/5.json
+
+
+
+
+
+
+
+
+
+
+
+
+### Clown Index
+GET http://localhost:3000/clowns.json
+
+
+### Clown Create
+POST http://localhost:3000/clowns.json
+Content-Type: application/json
+
+{
+"name": "Giggles"
+}
+
+
+### Clown Show
+GET http://localhost:3000/clowns/2.json
+
+
+
+### Clown Update
+PATCH http://localhost:3000/clowns/4.json
+Content-Type: application/json
+
+{
+"name": "Not-Stabby"
+}
+
+
+
+### Clown Destroy
+DELETE http://localhost:3000/clowns/4.json
+
+
+
+
+
